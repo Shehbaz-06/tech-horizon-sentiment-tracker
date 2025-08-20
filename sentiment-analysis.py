@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from textblob import TextBlob
 
-# 1.Load dataset 
+# Load dataset 
 df = pd.read_csv("sample_tweets.csv")
 
 print("Columns in CSV:", df.columns.tolist())
